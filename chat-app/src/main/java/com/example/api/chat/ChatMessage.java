@@ -12,7 +12,7 @@ import java.awt.*;
 @NoArgsConstructor
 @Builder
 public class ChatMessage {
-    private String Content;
-    private String Sender;
+    private String content;
+    private String sender;
     private MessageType type;
 }
